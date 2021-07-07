@@ -34,8 +34,6 @@ ROW_LABELS = ['1','2','3','4','5','6','7','8']
 
 COLUMN_LABELS = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h']
 
-
-# function for making fields, seen in module 2 
 def mk_field(val, str_len=None, is_first=False):
     prefix = ''
     if is_first:
