@@ -166,9 +166,9 @@ class Knight():
         self.moves = POSSIBLE_DIRECTIONS_KNIGHT
         self.moves_limit = 1
 
-    # TODO Q6, using the directions defined in part 1, write the move method
+    # TODO 6, using the directions defined in part 1, write the move method
     # for Knights. 
-    # Hint: Use a similar structure to the Kings method.
+    
     def move(self, new_position):
 
         if(is_valid_position(self.position, new_position, self.moves)):
@@ -201,9 +201,9 @@ class Bishop():
         self.moves = POSSIBLE_DIRECTIONS_BISHOP
         self.moves_limit = 99
 
-    # TODO Q6, using the directions defined in part 1, write the move method
+    # TODO , using the directions defined in part 1, write the move method
     # for Knights. 
-    # Hint: Use a similar structure to the Kings method.
+    
     def move(self, new_position):
 
         if(is_valid_position(self.position, new_position, self.moves)):
